@@ -5,6 +5,10 @@
     --image-height: 25rem;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 /*Utility*/
 .overflow-hidden{
     overflow: hidden;
@@ -112,9 +116,9 @@ body::after{
     width: 100%;
     height: 100%;
     background-image: url(../images/noise.png);
-    opacity: 0.1;
+    opacity: 0.08;
     mix-blend-mode: lighten;
-    background-size: 5rem;
+    background-size: 7rem;
 }
 
 nav .navbar-brand{
@@ -356,7 +360,7 @@ nav li a{
 
 .big-letter::before{
     background:url(../images/noise.png);
-    opacity: 0.1;
+    opacity: 0.08;
     background-size: 5rem;
     mix-blend-mode: lighten;
     content: "R";
@@ -460,3 +464,35 @@ footer .links a:hover{
     color: var(--accent-color);
 }
 
+
+
+.warning h1{
+    
+}
+
+.warning p{
+    text-align: center;
+}
+
+.warning{
+    display: none;
+}
+
+@media (max-width: 1328px) {
+    .warning{
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color:white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
+        width: 100vw !important;
+        height: 100vh !important;
+        background-color:  var(--gray-color);
+    }
+    
+}
