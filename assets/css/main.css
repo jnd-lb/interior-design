@@ -694,6 +694,11 @@ border-bottom-color: rgba(255, 255, 255, 0.475);
     font-weight:300;
 }
 
+.team-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 /* TEAM */
 .team-names {
