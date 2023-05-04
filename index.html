@@ -27,12 +27,12 @@
 
 </head>
 <body>
-    <div class="warning">
+    <!-- <div class="warning">
         <h1>Welcome</h1>
         <p>
             Hey! It's a pleasure to see you here. <br> The website is still under development
         </p>
-    </div>
+    </div> -->
     <section class="hero d-flex flex-column">
 
         <nav class="navbar navbar-expand-lg bg-transparent py-4">
@@ -41,7 +41,7 @@
             <div class="container">
     
               <a class="navbar-brand fw-bold" href="#">RMC</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
     
@@ -79,7 +79,7 @@
           <img class="path-1" src="./assets/images/path.svg" alt="">
           <div class="container flex-grow">
                 <div class="row h-100">
-                    <div class="col-md-5 h-100 d-flex position-relative flex-column justify-content-center pb-5">
+                    <div class="col-md-5 //h-100 d-flex position-relative flex-column justify-content-lg-center justify-content-start">
                         <img class="glare-1" src="./assets/images/glare.png" alt="" srcset="">
                         <p class="text-accent text-uppercase letter-spacing-1 mb-2">Architecture design</p>
                         <h1 class="text-white display-5 fw-bold text-uppercase mb-3">Professional <br/> Interior Design</h1>
@@ -88,13 +88,15 @@
                         
                         <span class="floating floating-left mt-5">Interior</span>
                     </div>
-                    <div class="col-md-7">
-                        <img class="position-absolute top-0" src="./assets/images/hero.jpeg" alt="">
+                    <div class="col-md-7 hero-image-container">
+                        <img class="hero-image" src="./assets/images/hero.jpeg" alt="">
                     </div>
                 </div>
 
             </div>
         </section>
+        <span class="floating float-right-mobile">Interior</span>
+
 
 
 
@@ -104,7 +106,7 @@
             <p class="text-accent text-uppercase letter-spacing-1 mb-2">Architecture design</p>
             <h1 class="text-white fw-bold text-uppercase mb-5">Our Specializations</h1>
          
-            <div  class="d-flex gap-5 z-3 position-relative">
+            <div  class="specialization-cards-container d-flex gap-5 z-3 position-relative">
 
                 <!--Card-->
                 <div data-aos="fade-up"  data-aos-duration="3000" data-aos-delay="200">
@@ -157,9 +159,9 @@
 
 
         <!--About Us-->
-        <section class="container py-5 mt-5">
-            <div class="row">
-                <div class="col-md-6">
+        <section class="container py-5">
+            <div class="row gy-4">
+                <div class="col-md-6 ">
                     <h1 class="text-white fw-bold text-uppercases">About Us</h1>
                     <p class="fw-lighter text-white line-height-1 my-2 mb-4">As development continues, engineers may visit building destinations to guarantee that temporary workers pursue the plan, keep to the timetable, utilize the predefined materials, and meet work-quality models.</p>
                    
@@ -181,7 +183,7 @@
                     </div>
 
                 </div> 
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <div class="d-flex gap-5 justify-content-around h-100 align-items-end about-us-images">
                         <img  data-aos="fade-left"  data-aos-duration="3000" data-aos-delay="200" src="./assets/images/about-us2.png" alt="">
                         <img data-aos="fade-left"  data-aos-duration="3000" data-aos-delay="500" class="mt--5 align-self-lg-start" src="./assets/images/about-us3.png" alt="">
